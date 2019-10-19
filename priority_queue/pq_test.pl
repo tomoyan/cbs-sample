@@ -3,7 +3,13 @@
 use strict;
 use warnings;
 use Data::Dumper;
+use FindBin qw( $RealBin );
+use lib $RealBin;
+
 use PriorityQueue;
+
+# Run this test script
+# perl pq_test.pl
 
 eval {
     main();
