@@ -12,6 +12,9 @@
 # Given A = [1, 2, 3], the function should return 4.
 # Given A = [−1, −3], the function should return 1.
 
+# Run this script
+# perl missing_integer.pl
+
 use strict;
 use warnings;
 use Data::Dumper;
